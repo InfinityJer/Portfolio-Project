@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelodyMix</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>MelodyMix</h1>
+</header>
+
+<section class="search-container">
+    <input type="text" placeholder="Search for songs or artists" id="search-bar">
+    <button id="search-button">Search</button>
+</section>
+
+<section class="recommendations-container">
+    <h2>Recommended Songs</h2>
+    <div id="recommended-songs"></div>
+</section>
+
+<div id="song-preview-modal" class="modal">
+    <div class="modal-content">
+        <div class="song-player">
+            <audio id="song-player"></audio>
+        </div>
+
+        <div class="song-info">
+            <h3>Song: <span id="song-title"></span></h3>
+            <p>Artist: <span id="song-artist"></span></p>
+            <p>Album: <span id="song-album"></span></p>
+            <p>Genre: <span id="song-genre"></span></p>
+        </div>
+
+        <button id="save-song-button">Save to Playlist</button>
+    </div>
+</div>
+
+<section class="playlist-container">
+    <h2>Playlist</h2>
+    <div id="playlist"></div>
+</section>
+
+<section class="feedback-container">
+    <h2>Feedback</h2>
+    <form id="feedback-form">
+        <label for="feedback-rating">Rating:</label>
+        <select id="feedback-rating">
+            <option value="like">Like</option>
+            <option value="dislike">Dislike</option>
+        </select>
+
+        <label for="feedback-comments">Comments:</label>
+        <textarea id="feedback-comments"></textarea>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+</section>
+
+<section class="settings-container">
+    <h2>User Settings</h2>
+    <form id="settings-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+
+        <label for="preferred-genres">Preferred Genres:</label>
+        <select id="preferred-genres" multiple>
+            <option value="pop">Pop</option>
+            <option value="rock">Rock</option>
+            <option value="hip-hop">Hip Hop</option>
+            <option value="electronic">Electronic</option>
+            <option value="classical">Classical</option>
+        </select>
+
+        <button type="submit">Save Settings</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
