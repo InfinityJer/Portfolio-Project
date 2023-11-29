@@ -1,0 +1,182 @@
+/* General styles */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Search container styles */
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#search-bar {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#search-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Recommendations container styles */
+
+.recommendations-container {
+  margin-bottom: 20px;
+}
+
+#recommended-songs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Song preview modal styles */
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20% auto;
+  width: 500px;
+  border: 1px solid #ccc;
+}
+
+.song-player {
+  margin-bottom: 20px;
+}
+
+.song-info {
+  margin-bottom: 20px;
+}
+
+#save-song-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Playlist container styles */
+
+.playlist-container {
+  margin-bottom: 20px;
+}
+
+#playlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Feedback container styles */
+
+.feedback-container {
+  margin-bottom: 20px;
+}
+
+#feedback-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Settings container styles */
+
+.settings-container {
+  margin-bottom: 20px;
+}
+
+.settings-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.settings-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.settings-form input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
