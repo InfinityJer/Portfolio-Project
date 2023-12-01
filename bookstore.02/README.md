@@ -63,7 +63,7 @@ $ npm start to run the local server
 
 👤 **Kuria Jermiah**
 
-- GitHub: [@InfinityJer]((https://github.com/InfinityJer))
+- GitHub: [@InfinityJer]((https://github.com/InfinityJer)
 
 ## 🤝 Contributing
 
