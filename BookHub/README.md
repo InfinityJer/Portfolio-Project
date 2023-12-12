@@ -1,17 +1,22 @@
 # Project Name
 
 BookStore CMS
+"Connecting Readers, One Book at a Time"
 
 # Description the project
 
 This is a book store project that allows users to add books to the store, remove books from the store, and view the books in the store.
 
+# Project inspiration
+BookHub, was inspired by the need to streamline book management for both bookstore owners and avid readers. I envisioned creating a user-friendly platform that simplifies the process of adding, removing, and exploring books in a centralized system.
+
 ## Built With
 
-- react
-- vite
-- skeleton css
-- redux
+Languages: JavaScript (React)
+Build Tool: Vite
+Styling: Skeleton CSS
+State Management: Redux
+Backend: Node.js
 
 ### Live LInk
 [Bookstore CMS](https://bookstorecmsreact.netlify.app/)
