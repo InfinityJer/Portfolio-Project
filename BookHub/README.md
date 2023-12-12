@@ -12,11 +12,11 @@ BookHub, was inspired by the need to streamline book management for both booksto
 
 ## Built With
 
-Languages: JavaScript (React)
-Build Tool: Vite
-Styling: Skeleton CSS
-State Management: Redux
-Backend: Node.js
+- Languages: JavaScript (React)
+- Build Tool: Vite
+- Styling: Skeleton CSS
+- State Management: Redux
+- Backend: Node.js
 
 ### Live LInk
 [Bookstore CMS](https://bookstorecmsreact.netlify.app/)
