@@ -1,7 +1,7 @@
 # Project Name
 
 BookStore CMS
-"Connecting Readers, One Book at a Time"
+- "Connecting Readers, One Book at a Time"
 
 # Description the project
 
